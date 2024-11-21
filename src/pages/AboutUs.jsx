@@ -1,7 +1,7 @@
 import React from "react";
 import PageTitle from "../components/PageTitle";
 
-export default function AboutUs() {
+const AboutUs = () => {
   return (
     <div className="w-full h-full flex flex-col justify-start items-center bg-Charcol">
       <div className="h-52 w-10/12 flex flex-col justify-center items-center">
@@ -95,4 +95,6 @@ export default function AboutUs() {
       </div>
     </div>
   );
-}
+};
+
+export default AboutUs;
