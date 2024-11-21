@@ -3,13 +3,11 @@
 @tailwind utilities;
 
 @layer base {
-    
-    @font-face {
-        font-family: 'Gandom';
-        src: 
-        url('../public/font/Gandom.ttf') format('ttf'),
-        url('../public/font/Gandom.woff') format('woff'),
-        url('../public/font/Gandom.eot') format('eot');
-        font-display: swap
-    }
+  @font-face {
+    font-family: "Gandom";
+    src: url("../public/font/Gandom.ttf") format("ttf"),
+      url("../public/font/Gandom.woff") format("woff"),
+      url("../public/font/Gandom.eot") format("eot");
+    font-display: swap;
+  }
 }
